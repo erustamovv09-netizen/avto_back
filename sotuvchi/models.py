@@ -11,3 +11,4 @@ class mashinalar(models.Model):
     engine_volume = models.IntegerField
     year = models.IntegerField
     fuel_type = models.CharField
+    turi = models.CharField
