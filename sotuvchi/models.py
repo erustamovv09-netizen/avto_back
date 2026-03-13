@@ -7,8 +7,9 @@ class mashinalar(models.Model):
     brand = models.CharField(max_length=100)
     price = models.IntegerField()
     description = models.TextField()
-    transmission = models.CharField
-    engine_volume = models.IntegerField
-    year = models.IntegerField
-    fuel_type = models.CharField
-    turi = models.CharField
+    # Pastdagi qatorlarga qavslar va max_length qo'shildi:
+    transmission = models.CharField(max_length=50) 
+    engine_volume = models.IntegerField()
+    year = models.IntegerField()
+    fuel_type = models.CharField(max_length=50)
+    turi = models.CharField(max_length=100)
