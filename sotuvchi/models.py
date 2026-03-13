@@ -13,3 +13,4 @@ class mashinalar(models.Model):
     year = models.IntegerField()
     fuel_type = models.CharField(max_length=50)
     turi = models.CharField(max_length=100)
+    yil = models.IntegerField()
