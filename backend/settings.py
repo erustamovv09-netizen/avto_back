@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',  # PostgreSQL drayveri
-        'NAME': 'sotuvchi',
+        'NAME': 'data',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': 'localhost',
